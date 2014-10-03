@@ -1,4 +1,6 @@
-#Esquematicos-Baixa-Latencia
----------------------
+#Esquematicos Baixa Latência
 
-Repositório contendo os repositórios com os esquematicos de baixa latência.
+Repositório dos esquematicos de baixa latência.
+
+Commits baseados nas diferenças nos xmls gerados pelo software <nome do software>.
+
