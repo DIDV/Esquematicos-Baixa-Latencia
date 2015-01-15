@@ -29932,7 +29932,7 @@ General-purpose diode for high-speed switching</description>
 <text x="220.98" y="33.02" size="2.54" layer="150" font="vector">DIDV</text>
 <text x="203.2" y="29.464" size="1.778" layer="150" font="vector">Dispositivo de Interface para</text>
 <text x="210.82" y="26.162" size="1.778" layer="150" font="vector">Deficientes Visuais</text>
-<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">01</text>
+<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">07</text>
 <text x="7.62" y="7.62" size="2.54" layer="97" font="vector">Alimentacao 5V0</text>
 <wire x1="5.08" y1="45.72" x2="5.08" y2="5.08" width="0.1524" layer="150" style="longdash"/>
 <wire x1="5.08" y1="5.08" x2="93.98" y2="5.08" width="0.1524" layer="150" style="longdash"/>

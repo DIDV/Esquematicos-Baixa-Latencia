@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -24212,7 +24212,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <text x="220.98" y="33.02" size="2.54" layer="150" font="vector">DIDV</text>
 <text x="203.2" y="29.464" size="1.778" layer="150" font="vector">Dispositivo de Interface para</text>
 <text x="210.82" y="26.162" size="1.778" layer="150" font="vector">Deficientes Visuais</text>
-<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">06</text>
+<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">07</text>
 <text x="198.12" y="43.18" size="2.54" layer="97" font="vector">Buzzer</text>
 <wire x1="127" y1="68.58" x2="144.78" y2="68.58" width="0.1524" layer="150" style="longdash"/>
 <wire x1="144.78" y1="68.58" x2="144.78" y2="5.08" width="0.1524" layer="150" style="longdash"/>
@@ -24694,19 +24694,15 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <label x="162.56" y="116.84" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
-<pinref part="S108" gate="S" pin="3"/>
-<pinref part="S108" gate="S" pin="4"/>
-<wire x1="127" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
-<junction x="127" y="45.72"/>
-<wire x1="127" y1="48.26" x2="127" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="127" y1="48.26" x2="134.62" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="127" y1="55.88" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C113" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="48.26" x2="137.16" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="35.56" x2="134.62" y2="48.26" width="0.1524" layer="91"/>
-<junction x="134.62" y="48.26"/>
-<label x="129.54" y="48.26" size="1.778" layer="95"/>
-<wire x1="127" y1="48.26" x2="127" y2="53.34" width="0.1524" layer="91" style="longdash"/>
-<junction x="127" y="48.26"/>
+<wire x1="134.62" y1="35.56" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="R117" gate="G$1" pin="1"/>
+<wire x1="124.46" y1="63.5" x2="127" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="127" y1="63.5" x2="127" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="127" y1="55.88" x2="127" y2="53.34" width="0.1524" layer="91"/>
+<junction x="127" y="55.88"/>
+<label x="129.54" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UP" class="0">
@@ -25111,14 +25107,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="233.68" y1="93.98" x2="233.68" y2="91.44" width="0.1524" layer="91" style="longdash"/>
 </segment>
 </net>
-<net name="F1" class="0">
-<segment>
-<pinref part="R117" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="63.5" x2="127" y2="63.5" width="0.1524" layer="91" style="longdash"/>
-<wire x1="127" y1="63.5" x2="127" y2="58.42" width="0.1524" layer="91" style="longdash"/>
-<label x="127" y="58.42" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="X101" gate="G$1" pin="GP22"/>
@@ -25137,6 +25125,16 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="X101" gate="G$1" pin="GP4"/>
 <wire x1="172.72" y1="124.46" x2="172.72" y2="119.38" width="0.1524" layer="91" style="longdash"/>
 <label x="172.72" y="113.538" size="1.778" layer="95" rot="MR90"/>
+</segment>
+</net>
+<net name="F1" class="0">
+<segment>
+<pinref part="S108" gate="S" pin="4"/>
+<pinref part="S108" gate="S" pin="3"/>
+<wire x1="127" y1="45.72" x2="129.54" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="127" y1="45.72" x2="127" y2="48.26" width="0.1524" layer="91"/>
+<junction x="127" y="45.72"/>
+<label x="127" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -30890,7 +30888,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <text x="220.98" y="33.02" size="2.54" layer="150" font="vector">DIDV</text>
 <text x="203.2" y="29.464" size="1.778" layer="150" font="vector">Dispositivo de Interface para</text>
 <text x="210.82" y="26.162" size="1.778" layer="150" font="vector">Deficientes Visuais</text>
-<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">06</text>
+<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">07</text>
 <text x="10.16" y="96.52" size="2.54" layer="97" font="vector">Conversor_PICProgrammer</text>
 <wire x1="7.62" y1="93.98" x2="7.62" y2="172.72" width="0.1524" layer="97" style="longdash"/>
 <wire x1="7.62" y1="172.72" x2="208.28" y2="172.72" width="0.1524" layer="97" style="longdash"/>
@@ -31466,13 +31464,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="R201" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="F1" class="0">
-<segment>
-<pinref part="K201" gate="-A" pin="COM"/>
-<wire x1="241.3" y1="81.28" x2="241.3" y2="76.2" width="0.1524" layer="91"/>
-<label x="241.3" y="76.2" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="TE" class="0">
 <segment>
 <wire x1="193.04" y1="68.58" x2="190.5" y2="68.58" width="0.1524" layer="91"/>
@@ -31504,18 +31495,25 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <label x="236.22" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="FIM" class="0">
-<segment>
-<pinref part="K201" gate="-A" pin="NC"/>
-<wire x1="246.38" y1="88.9" x2="251.46" y2="88.9" width="0.1524" layer="91"/>
-<label x="248.92" y="88.9" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="F2" class="0">
 <segment>
 <pinref part="JP203" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="165.1" x2="236.22" y2="170.18" width="0.1524" layer="91" style="longdash"/>
 <label x="236.22" y="167.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FIM" class="0">
+<segment>
+<pinref part="K201" gate="-A" pin="COM"/>
+<wire x1="241.3" y1="81.28" x2="241.3" y2="76.2" width="0.1524" layer="91"/>
+<label x="241.3" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="F1" class="0">
+<segment>
+<pinref part="K201" gate="-A" pin="NC"/>
+<wire x1="246.38" y1="88.9" x2="251.46" y2="88.9" width="0.1524" layer="91"/>
+<label x="246.38" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

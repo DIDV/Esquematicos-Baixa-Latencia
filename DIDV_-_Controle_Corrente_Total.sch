@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -27210,7 +27210,7 @@ at 30/07/2012 12:23:11</description>
 <text x="220.98" y="33.02" size="2.54" layer="150" font="vector">DIDV</text>
 <text x="203.2" y="29.464" size="1.778" layer="150" font="vector">Dispositivo de Interface para</text>
 <text x="210.82" y="26.162" size="1.778" layer="150" font="vector">Deficientes Visuais</text>
-<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">01</text>
+<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">07</text>
 <text x="10.16" y="111.76" size="2.54" layer="97" font="vector">Conexao_Fonte_5V</text>
 <wire x1="7.62" y1="172.72" x2="7.62" y2="109.22" width="0.1524" layer="97" style="longdash"/>
 <wire x1="7.62" y1="109.22" x2="121.92" y2="109.22" width="0.1524" layer="97" style="longdash"/>
@@ -33335,7 +33335,7 @@ at 30/07/2012 12:23:11</description>
 <text x="220.98" y="33.02" size="2.54" layer="150" font="vector">DIDV</text>
 <text x="203.2" y="29.464" size="1.778" layer="150" font="vector">Dispositivo de Interface para</text>
 <text x="210.82" y="26.162" size="1.778" layer="150" font="vector">Deficientes Visuais</text>
-<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">01</text>
+<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">07</text>
 <wire x1="10.16" y1="172.72" x2="10.16" y2="119.38" width="0.1524" layer="97" style="longdash"/>
 <wire x1="10.16" y1="119.38" x2="83.82" y2="119.38" width="0.1524" layer="97" style="longdash"/>
 <wire x1="83.82" y1="119.38" x2="83.82" y2="172.72" width="0.1524" layer="97" style="longdash"/>
@@ -39480,7 +39480,7 @@ at 30/07/2012 12:23:11</description>
 <text x="220.98" y="33.02" size="2.54" layer="150" font="vector">DIDV</text>
 <text x="203.2" y="29.464" size="1.778" layer="150" font="vector">Dispositivo de Interface para</text>
 <text x="210.82" y="26.162" size="1.778" layer="150" font="vector">Deficientes Visuais</text>
-<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">01</text>
+<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">07</text>
 <wire x1="10.16" y1="172.72" x2="10.16" y2="119.38" width="0.1524" layer="97" style="longdash"/>
 <wire x1="10.16" y1="119.38" x2="83.82" y2="119.38" width="0.1524" layer="97" style="longdash"/>
 <wire x1="83.82" y1="119.38" x2="83.82" y2="172.72" width="0.1524" layer="97" style="longdash"/>
@@ -45508,7 +45508,7 @@ at 30/07/2012 12:23:11</description>
 <text x="220.98" y="33.02" size="2.54" layer="150" font="vector">DIDV</text>
 <text x="203.2" y="29.464" size="1.778" layer="150" font="vector">Dispositivo de Interface para</text>
 <text x="210.82" y="26.162" size="1.778" layer="150" font="vector">Deficientes Visuais</text>
-<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">06</text>
+<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">07</text>
 <wire x1="5.08" y1="73.66" x2="5.08" y2="5.08" width="0.1524" layer="97" style="longdash"/>
 <wire x1="5.08" y1="5.08" x2="60.96" y2="5.08" width="0.1524" layer="97" style="longdash"/>
 <wire x1="60.96" y1="5.08" x2="60.96" y2="73.66" width="0.1524" layer="97" style="longdash"/>
@@ -52088,7 +52088,7 @@ at 30/07/2012 12:23:11</description>
 <text x="220.98" y="33.02" size="2.54" layer="150" font="vector">DIDV</text>
 <text x="203.2" y="29.464" size="1.778" layer="150" font="vector">Dispositivo de Interface para</text>
 <text x="210.82" y="26.162" size="1.778" layer="150" font="vector">Deficientes Visuais</text>
-<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">06</text>
+<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">07</text>
 <text x="12.7" y="91.44" size="2.54" layer="97" font="vector">Cooler1</text>
 <wire x1="10.16" y1="88.9" x2="104.14" y2="88.9" width="0.1524" layer="97" style="longdash"/>
 <wire x1="104.14" y1="88.9" x2="104.14" y2="170.18" width="0.1524" layer="97" style="longdash"/>

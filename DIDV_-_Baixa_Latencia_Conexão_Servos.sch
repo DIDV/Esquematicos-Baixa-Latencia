@@ -16719,7 +16719,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="220.98" y="33.02" size="2.54" layer="150" font="vector">DIDV</text>
 <text x="203.2" y="29.464" size="1.778" layer="150" font="vector">Dispositivo de Interface para</text>
 <text x="210.82" y="26.162" size="1.778" layer="150" font="vector">Deficientes Visuais</text>
-<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">06</text>
+<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">07</text>
 <text x="7.62" y="127" size="1.778" layer="150" font="vector">Alimentacao</text>
 <text x="68.58" y="109.22" size="1.778" layer="150" font="vector" rot="R90">Conector dos acionamentos</text>
 <wire x1="66.04" y1="172.72" x2="66.04" y2="106.68" width="0.1524" layer="97" style="longdash"/>
@@ -24281,7 +24281,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="220.98" y="33.02" size="2.54" layer="150" font="vector">DIDV</text>
 <text x="203.2" y="29.464" size="1.778" layer="150" font="vector">Dispositivo de Interface para</text>
 <text x="210.82" y="26.162" size="1.778" layer="150" font="vector">Deficientes Visuais</text>
-<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">06</text>
+<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">07</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -30875,7 +30875,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="220.98" y="33.02" size="2.54" layer="150" font="vector">DIDV</text>
 <text x="203.2" y="29.464" size="1.778" layer="150" font="vector">Dispositivo de Interface para</text>
 <text x="210.82" y="26.162" size="1.778" layer="150" font="vector">Deficientes Visuais</text>
-<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">06</text>
+<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">07</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
