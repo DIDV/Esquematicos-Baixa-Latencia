@@ -24077,8 +24077,12 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="220.98" y="33.02" size="2.54" layer="150" font="vector">DIDV</text>
 <text x="203.2" y="29.464" size="1.778" layer="150" font="vector">Dispositivo de Interface para</text>
 <text x="210.82" y="26.162" size="1.778" layer="150" font="vector">Deficientes Visuais</text>
-<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">08</text>
-<text x="134.62" y="10.16" size="2.54" layer="97" font="vector">Desacoplamento</text>
+<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">09</text>
+<text x="7.62" y="43.18" size="2.54" layer="97" font="vector">Somente precisara ser usado em caso de alto consumo de corrente</text>
+<text x="7.62" y="38.1" size="2.54" layer="97" font="vector">pelos servomotores.</text>
+<text x="7.62" y="27.94" size="2.54" layer="97" font="vector">Os cálculos foram previstos para queda de 12V para 6V com 40A medio.</text>
+<text x="7.62" y="17.78" size="2.54" layer="97" font="vector">Os cálculos estao disponiveis no drive de projeto (dropbox),</text>
+<text x="7.62" y="12.7" size="2.54" layer="97" font="vector">para uso com o software Scilab.</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

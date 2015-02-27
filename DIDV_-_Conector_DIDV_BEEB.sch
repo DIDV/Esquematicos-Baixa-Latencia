@@ -6887,8 +6887,9 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="220.98" y="33.02" size="2.54" layer="150" font="vector">DIDV</text>
 <text x="203.2" y="29.464" size="1.778" layer="150" font="vector">Dispositivo de Interface para</text>
 <text x="210.82" y="26.162" size="1.778" layer="150" font="vector">Deficientes Visuais</text>
-<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">08</text>
+<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">09</text>
 <text x="7.62" y="7.62" size="6.4516" layer="97" font="vector" ratio="20">Baixa--&gt;Alta</text>
+<text x="7.62" y="17.78" size="2.54" layer="150" font="vector">Conector parara interligacao entre a placa principal e a expansao.</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -12793,8 +12794,9 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <text x="220.98" y="33.02" size="2.54" layer="150" font="vector">DIDV</text>
 <text x="203.2" y="29.464" size="1.778" layer="150" font="vector">Dispositivo de Interface para</text>
 <text x="210.82" y="26.162" size="1.778" layer="150" font="vector">Deficientes Visuais</text>
-<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">08</text>
+<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">09</text>
 <text x="7.62" y="7.62" size="6.4516" layer="97" font="vector" ratio="20">Alta--&gt;Baixa</text>
+<text x="7.62" y="15.24" size="2.54" layer="150" font="vector">Conector parara interligacao entre a placa principal e a expansao.</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>

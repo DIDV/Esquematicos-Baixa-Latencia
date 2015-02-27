@@ -24214,7 +24214,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <text x="220.98" y="33.02" size="2.54" layer="150" font="vector">DIDV</text>
 <text x="203.2" y="29.464" size="1.778" layer="150" font="vector">Dispositivo de Interface para</text>
 <text x="210.82" y="26.162" size="1.778" layer="150" font="vector">Deficientes Visuais</text>
-<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">08</text>
+<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">09</text>
 <text x="198.12" y="43.18" size="2.54" layer="97" font="vector">Buzzer</text>
 <wire x1="127" y1="68.58" x2="144.78" y2="68.58" width="0.1524" layer="150" style="longdash"/>
 <wire x1="144.78" y1="68.58" x2="144.78" y2="5.08" width="0.1524" layer="150" style="longdash"/>
@@ -30891,7 +30891,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <text x="220.98" y="33.02" size="2.54" layer="150" font="vector">DIDV</text>
 <text x="203.2" y="29.464" size="1.778" layer="150" font="vector">Dispositivo de Interface para</text>
 <text x="210.82" y="26.162" size="1.778" layer="150" font="vector">Deficientes Visuais</text>
-<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">08</text>
+<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">09</text>
 <text x="10.16" y="96.52" size="2.54" layer="97" font="vector">Conversor_PICProgrammer</text>
 <wire x1="7.62" y1="93.98" x2="7.62" y2="172.72" width="0.1524" layer="97" style="longdash"/>
 <wire x1="7.62" y1="172.72" x2="208.28" y2="172.72" width="0.1524" layer="97" style="longdash"/>
