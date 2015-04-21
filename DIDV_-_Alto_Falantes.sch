@@ -19872,12 +19872,8 @@ reflow soldering</description>
 </packages>
 <symbols>
 <symbol name="SCHOTTKY">
-<wire x1="1.5875" y1="1.27" x2="0.9525" y2="1.27" width="0.254" layer="94"/>
 <wire x1="0.9525" y1="1.27" x2="0.9525" y2="0" width="0.254" layer="94"/>
 <wire x1="0.9525" y1="0" x2="0.9525" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.5875" y1="1.27" x2="1.5875" y2="1.016" width="0.254" layer="94"/>
-<wire x1="0.9525" y1="-1.27" x2="0.3175" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0.3175" y1="-1.016" x2="0.3175" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-0.9525" y1="-0.9525" x2="0.9525" y2="0" width="0.254" layer="94"/>
 <wire x1="0.9525" y1="0" x2="-0.9525" y2="0.9525" width="0.254" layer="94"/>
 <wire x1="-0.9525" y1="0.9525" x2="-0.9525" y2="0" width="0.254" layer="94"/>
@@ -19969,6 +19965,19 @@ General-purpose diode for high-speed switching</description>
 <rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
 <rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
 </package>
+<package name="JP1M">
+<description>&lt;b&gt;JUMPER&lt;/b&gt; - 2.00mm (.079") Pitch</description>
+<wire x1="1.25" y1="2.25" x2="1.25" y2="-2.25" width="0.2032" layer="21"/>
+<wire x1="1.25" y1="-2.25" x2="-1.25" y2="-2.25" width="0.2032" layer="21"/>
+<wire x1="-1.25" y1="-2.25" x2="-1.25" y2="2.25" width="0.2032" layer="21"/>
+<wire x1="-1.25" y1="2.25" x2="1.25" y2="2.25" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="-1" drill="0.9144" shape="square"/>
+<pad name="2" x="0" y="1" drill="0.9144" shape="octagon"/>
+<text x="-1.7825" y="-2.4925" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
+<text x="2.735" y="-2.4925" size="0.8128" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.25" y1="0.75" x2="0.25" y2="1.25" layer="51"/>
+<rectangle x1="-0.25" y1="-1.25" x2="0.25" y2="-0.75" layer="51"/>
+</package>
 <package name="JP1Y">
 <description>&lt;b&gt;JUMPER&lt;/b&gt; - 0.1" Pitch, Long Pads</description>
 <wire x1="-1.27" y1="2.159" x2="-1.27" y2="0.381" width="0.254" layer="51"/>
@@ -19983,25 +19992,12 @@ General-purpose diode for high-speed switching</description>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="-2.159" width="0.254" layer="21"/>
 <wire x1="-1.27" y1="-2.54" x2="-1.27" y2="-2.159" width="0.254" layer="21"/>
 <wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="21"/>
-<pad name="1" x="0" y="-1.27" drill="0.9144" shape="long"/>
-<pad name="2" x="0" y="1.27" drill="0.9144" shape="long"/>
+<pad name="1" x="0" y="-1.27" drill="0.9" diameter="1.6764"/>
+<pad name="2" x="0" y="1.27" drill="0.9" diameter="1.6764"/>
 <text x="-1.905" y="-2.54" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
 <text x="3.175" y="-2.54" size="0.8128" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
 <rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
-</package>
-<package name="JP1M">
-<description>&lt;b&gt;JUMPER&lt;/b&gt; - 2.00mm (.079") Pitch</description>
-<wire x1="1.25" y1="2.25" x2="1.25" y2="-2.25" width="0.2032" layer="21"/>
-<wire x1="1.25" y1="-2.25" x2="-1.25" y2="-2.25" width="0.2032" layer="21"/>
-<wire x1="-1.25" y1="-2.25" x2="-1.25" y2="2.25" width="0.2032" layer="21"/>
-<wire x1="-1.25" y1="2.25" x2="1.25" y2="2.25" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="-1" drill="0.9144" shape="square"/>
-<pad name="2" x="0" y="1" drill="0.9144" shape="octagon"/>
-<text x="-1.7825" y="-2.4925" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
-<text x="2.735" y="-2.4925" size="0.8128" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.25" y1="0.75" x2="0.25" y2="1.25" layer="51"/>
-<rectangle x1="-0.25" y1="-1.25" x2="0.25" y2="-0.75" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -20319,7 +20315,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packages>
 <package name="RCA">
 <wire x1="-4" y1="6.27" x2="-4" y2="-6.27" width="0.2032" layer="51"/>
-<wire x1="-4" y1="-6.27" x2="13.42" y2="-6.27" width="0.2032" layer="51"/>
 <wire x1="13.42" y1="-6.27" x2="13.42" y2="6.27" width="0.2032" layer="51"/>
 <wire x1="13.42" y1="6.27" x2="-4" y2="6.27" width="0.2032" layer="51"/>
 <wire x1="-4" y1="4" x2="-13.4" y2="4" width="0.2032" layer="51"/>
@@ -20332,6 +20327,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="_GND" x="-0.11" y="3.7" drill="1.6" diameter="3.048"/>
 <pad name="_1GND" x="-0.11" y="-3.7" drill="1.6" diameter="3.048"/>
 <pad name="_SIGNAL" x="10.16" y="2.54" drill="1.6" diameter="3.048"/>
+<hole x="-0.1" y="3.7" drill="1.6"/>
+<hole x="10.15" y="2.55" drill="1.6"/>
+<hole x="6.35" y="0" drill="1.6"/>
+<hole x="-0.1" y="-3.7" drill="1.6"/>
 </package>
 </packages>
 <symbols>
@@ -30101,7 +30100,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="220.98" y="33.02" size="2.54" layer="150" font="vector">DIDV</text>
 <text x="203.2" y="29.464" size="1.778" layer="150" font="vector">Dispositivo de Interface para</text>
 <text x="210.82" y="26.162" size="1.778" layer="150" font="vector">Deficientes Visuais</text>
-<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">09</text>
+<text x="250.698" y="10.16" size="2.54" layer="150" font="vector">10</text>
 <text x="10.16" y="10.16" size="2.54" layer="97" font="vector">Alimentacao 5V0</text>
 <wire x1="7.62" y1="48.26" x2="7.62" y2="7.62" width="0.1524" layer="150" style="longdash"/>
 <wire x1="7.62" y1="7.62" x2="96.52" y2="7.62" width="0.1524" layer="150" style="longdash"/>
